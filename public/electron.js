@@ -19,7 +19,6 @@ const createWindow = () => {
         },
     });
     main.loadURL(isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../build/index.html')}`)
-    // main.loadFile('./build/index.html');
     // main.webContents.openDevTools();
 };
 
