@@ -19,10 +19,7 @@
   },
   "build": {
     "appId": "com.example.electron-react",
-    "files": [
-      "build/**/*",
-      "node_modules/**/*"
-    ],
+    "files": [],
     "directories": {
       "buildResources": "public"
     }
